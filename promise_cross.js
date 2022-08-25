@@ -23,4 +23,4 @@ async function getUser(){
     console.log(number);
     
 }
-getUser() 
+

@@ -63,7 +63,19 @@ if(pass3){
 
 
 const print=async()=>{
-    let first=await task;
-    console.log(first);
+    try {
+        let first=await task;
+        console.log(first);
+        let second=await tech;
+        console.log(second);
+        let third=await manager;
+        console.log(third);
+        let fourth=await hr;
+        console.log(fourth);
+    } catch (error) {
+        console.log(error);
+        
+    }
+    
 }
 print()
